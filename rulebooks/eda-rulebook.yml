@@ -46,7 +46,7 @@
       action:
         run_workflow_template:
           name: Provision Edge Device
-          organization: "<YOUR_ORG>"
+          organization: "LMF"
           job_args:
             extra_vars:
               ip_address: "{{ event.payload.ip_address }}"
